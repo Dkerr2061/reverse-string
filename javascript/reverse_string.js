@@ -1,5 +1,6 @@
 function reverseString(str) {
-  // type your code here
+  let separatedString = str.split("").reverse().join("");
+  return separatedString;
 }
 
 if (require.main === module) {
